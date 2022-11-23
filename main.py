@@ -1,6 +1,9 @@
 import controller as cs
+import view as vw
 
-cs.Data_view()
+
+cs.init()
+
 
 
 

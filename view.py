@@ -9,3 +9,18 @@ def get_Data():
     number = input('Введите номер телефона: ')
     data.append(number)
     return data
+
+def menu():
+    print('\nГлавное меню: \n'
+          '\n1. Открыть CSV файл\n'
+          '2. Добавить контакт в CSV- файл\n'
+          '3. Поиск контакта\n'
+          '4. Выход')
+    return(int(input('->> ')))
+
+
+
+
+
+
+
